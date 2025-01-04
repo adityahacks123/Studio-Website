@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy'
+    font-family: ''
 }
 html,body{
     height: 100%;
@@ -14,6 +14,7 @@ html,body{
     width: 100%;
     background-color: #EFEAE3;
     position: relative;
+    padding: 0 2vw;
 }
 nav{
     padding: 2vw 3vw;
@@ -60,4 +61,26 @@ nav{
 }
 #nav-part2 h4:hover a{
     color: white;
+}
+#center {
+    height: 65vh;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+    padding-bottom: 2.5vw;
+}
+
+#left h3 {
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+
+#center h1 {
+    font-size: 10vw;
+    text-align: right;
+    line-height: 8vw;
 }
