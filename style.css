@@ -295,3 +295,14 @@ animation-timing-function: linear;
 .elem:hover .overlay{
     top:0;
 }
+#fixed-image{
+    height: 30vw;
+    width: 23vw;
+    background-color: red;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 27%;
+    display: none;
+}
