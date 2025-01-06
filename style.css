@@ -261,7 +261,37 @@ animation-timing-function: linear;
     
 }
 #page3{
-    height: 100vh;
+ min-height: 100vh;
     width: 100%;
-    background-color: aqua;
+    background-color:#EFEAE3;
+    padding: 4vw 0;
+    
+}
+.elem{
+    height: 150px;
+    width: 100%;
+    
+    border-bottom: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    overflow: hidden;
+}
+.elem h2{
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+}
+.elem .overlay{
+    height: 100%;
+    width: 100%;
+    background-color:orange;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.3s;
+}
+.elem:hover .overlay{
+    top:0;
 }
